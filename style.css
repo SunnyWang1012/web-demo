@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai|Noto+Sans+TC&display=swap");
+
+* {
+  box-sizing: border-box;  
+  margin:0;
+  font-family: 'Baloo Bhai', cursive;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.section{
+    width:100wh;
+    height:100vh;
+}
+#header{
+    width:100wh;
+    height: 8vh;
+    background-color:black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu_img{
+    height:8vh;
+}
+#header_description{
+    background-color:black;
+    color:white;
+    width:55%; 
+    font-size:16pt;
+    text-align: center;
+}
+#header_contact{
+    width:10%;
+    background-color:black;
+    text-align: right;
+}
+.photo_section{
+    width:100wh;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#222;
+}
+.img_common{
+    height:50vh;
+    max-width:100%;
+    max-height:100%;
+}
+.img_icon{
+    max-width:100%;
+    max-height:100%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin:-5px;
+    background-color: #222;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover{
+    background-color:#444;
+  }
+
+  .dropdown-content a {
+    color:#f9f9f9;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #header:hover .dropdown-content {
+    display: block;
+  }
+
+.about_me_section{
+    width:100wh;
+    height:54vh;
+    background-color:#222;
+    color:#f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_layout_44{
+    width:100wh;
+    height:44vh;
+    display: flex;
+    background-color:#222;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_layout_44_center{
+    width:100wh;
+    height:44vh;
+    display: flex;
+    background-color:#222;
+    justify-content: center;
+    align-items: center;
+}
+.section_layout_50{
+    width:100wh;
+    height:50vh;
+    display: flex;
+    background-color:#222;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;    
+}
+.section_title{
+    width:100wh;
+    height: 6vh;
+    font-size: 14pt;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.chinese_font_14_black{
+    font-size:14pt;
+    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:black;
+}
+.chinese_font_12_white{
+    font-size:12pt;
+    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:white;
+}
+.chinese_font_12_black{
+    font-size:12pt;
+    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    color:black;
+}
+.seg_2_div{
+    width:50%;
+    height:44vh;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seg_2_div_space_between{
+    width:50%;
+    height:44vh;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec_2_div_icon_top{
+    width:30%;
+    height:44vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:20px;
+}
+.seg_2_div_70{
+    width:70%;
+    height:4vh;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seg_2_div_photo{
+    width:30%;
+    height:44vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seg_3_div{
+    width:30%;
+    height:44vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seg_3_div_center{
+    width:35%;
+    height:44vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_icon_style{
+    width:25px;
+    height:25px;
+    margin-right:5px;
+}
