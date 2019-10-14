@@ -90,6 +90,10 @@
     justify-content: center;
     align-items: center;
 }
+.about_me_description{
+    width:60%;
+    height:30vh;
+}
 .section_layout_44{
     width:100wh;
     height:44vh;
@@ -129,12 +133,14 @@
     font-family: 'Noto Sans TC', sans-serif;
     color:black;
 }
-.chinese_font_12_white{
+
+ul, li,.chinese_font_12_white {
     font-size:12pt;
     font-family: 'Baloo Bhai', cursive;
     font-family: 'Noto Sans TC', sans-serif;
     color:white;
 }
+
 .chinese_font_12_black{
     font-size:12pt;
     font-family: 'Baloo Bhai', cursive;
@@ -152,14 +158,13 @@
 .seg_2_div_space_between{
     width:50%;
     height:44vh;
-    padding:20px;
+    padding:50px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
 }
 .sec_2_div_icon_top{
     width:30%;
-    height:44vh;
     display:flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -167,8 +172,8 @@
 }
 .seg_2_div_70{
     width:70%;
-    height:4vh;
-    padding:20px;
+    height:44vh;
+    padding:20px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +192,21 @@
     justify-content: center;
     align-items: center;
 }
-.seg_3_div_center{
+.seg_3_div_15{
+    width:15%;
+    height:44vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seg_3_div_55{
+    width:55%;
+    height:44vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seg_3_div_35{
     width:35%;
     height:44vh;
     display: flex;
