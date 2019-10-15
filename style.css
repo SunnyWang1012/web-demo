@@ -77,7 +77,7 @@
     display: block;
   }
   
-  #header:hover .dropdown-content {
+  #menu:hover .dropdown-content {
     display: block;
   }
 
