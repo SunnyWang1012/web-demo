@@ -31,12 +31,7 @@
     color:white;
     width:55%; 
     font-size:16pt;
-    text-align: center;
-}
-#header_contact{
-    width:10%;
-    background-color:black;
-    text-align: right;
+    text-align: left;
 }
 .photo_section{
     width:100wh;
